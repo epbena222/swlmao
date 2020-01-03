@@ -1,0 +1,25 @@
+@font-face {
+    font-family: ttf;
+    src: url(comic.ttf);
+}
+.topnav {
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/4/48/Teleidoscope_animation.gif);
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: ttf;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
