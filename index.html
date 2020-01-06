@@ -9,17 +9,25 @@
 	<body>
 		<div class="topnav">
 			<a href="index.html">Home</a>
-			<a href="index.html" id="wonders">Wonders</a>
-				<ul>
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
-					<li>4</li>
-					<li>5</li>
-					<li>6</li>
-					<li>7</li>
+			<a href="index.html" id="wonders" onMouseOver="dropDown()">Wonders</a>
+				<ul id="wondersList">
+					<div>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</div>
 				</ul>
 			<a href="index.html">About Us</a>
 		</div>
 	</body>
+	
+	<script>
+		function dropDown() {
+			document.getElementById("wondersList").classList.toggle("show");
+		}
+	</script>
 </html>
