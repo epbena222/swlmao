@@ -27,6 +27,7 @@
 .wondersList {
 	visibility: collapse;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
