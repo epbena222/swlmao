@@ -24,4 +24,6 @@
     color: white;
 }
 
-
+.wondersList {
+	display: none; 
+}
