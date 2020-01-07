@@ -25,5 +25,5 @@
 }
 
 .wondersList {
-	display: none; 
+	visibility: collapse;
 }
