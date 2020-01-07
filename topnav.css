@@ -25,7 +25,8 @@
 }
 
 .wondersList {
-	display: none;
+	visibility: hidden;
+	position: absolute;
 }
 
 .dropdown-content {
