@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 .topnav a, button {
-    width: 10%;
+    width: 7.5%;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -28,7 +28,8 @@
 .dropCont {
 	display: none;
     position: absolute;
-    left: 15%;
+    left: 7.75%;
+    top: 50px;
 }
 
 .dropBut {
@@ -37,4 +38,8 @@
 
 .show {
     display: block;
+}
+
+ul {
+    list-style: none;
 }
