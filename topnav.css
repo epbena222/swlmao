@@ -33,6 +33,6 @@
     position: relative;
 }
 
-.wondersList:hover .dropCont {
+.show {
     display: block;
 }
