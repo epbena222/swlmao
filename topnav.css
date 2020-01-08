@@ -31,6 +31,7 @@
 
 .dropBut {
     position: relative;
+    left: 200px;
 }
 
 .show {
