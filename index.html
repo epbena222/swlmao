@@ -10,7 +10,7 @@
 		<div class="topnav">
 			<a href="index.html">Home</a>
             <div class="wondersList">
-            <button class="dropBut" onMouseOver="dropDown()">Wonders</button>
+            <button class="dropBut" onMouseOver="dropDownOn()" onMouseOut="dropDownOff()">Wonders</button>
 			<div id="drop" class="dropCont">
                <ul>
                 <li>1</li>
@@ -24,7 +24,10 @@
 	</body>
 	
 	<script>
-		function dropDown() {
+		function dropDownOn() {
+			document.getElementById("drop").classList.toggle("show");
+		}
+        function dropDownOff() {
 			document.getElementById("drop").classList.toggle("show");
 		}
 	</script>
