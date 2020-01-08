@@ -6,7 +6,7 @@
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/4/48/Teleidoscope_animation.gif);
     overflow: hidden;
 }
-.topnav a button {
+.topnav a, button {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -15,7 +15,7 @@
     font-size: 17px;
     font-family: ttf;
 }
-.topnav a:hover button:hover {
+.topnav a:hover, button:hover {
     background-color: #ddd;
     color: black;
 }
