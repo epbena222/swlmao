@@ -27,11 +27,11 @@
 .dropCont {
 	display: none;
     position: absolute;
+     left: 400px;
 }
 
 .dropBut {
     position: relative;
-    left: 1000px;
 }
 
 .show {
