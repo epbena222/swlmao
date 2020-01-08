@@ -25,7 +25,7 @@
 }
 
 .dropCont {
-	visibility: hidden;
+	display: none;
     position: absolute;
 }
 
