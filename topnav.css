@@ -1,13 +1,13 @@
 @font-face {
     font-family: ttf;
-    src: url(wingding.ttf);
+    src: url();
 }
 .topnav {
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/4/48/Teleidoscope_animation.gif);
     overflow: hidden;
 }
 .topnav a {
-    width: 7.5%;
+    width: 125px;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -28,8 +28,10 @@
 .dropCont {
 	display: none;
     position: absolute;
-    left: 7.75%;
-    top: 50px;
+    left: 163px;
+    top: 56.25px;
+    width: 152.75px;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .dropBut {
@@ -43,3 +45,13 @@
 ul {
     list-style: none;
 }
+div#drop {
+    border: medium solid #000000;
+}
+
+.wondersItems {
+    text-align: left;
+    color: #000000;
+}
+
+
