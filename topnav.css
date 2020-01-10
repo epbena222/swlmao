@@ -29,7 +29,7 @@
 	display: none;
     position: absolute;
     left: 163px;
-    top: 56.25px;
+    top: 163.25px;
     width: 152.75px;
     background: rgba(0, 0, 0, 0.1);
 }
@@ -53,5 +53,3 @@ div#drop {
     text-align: left;
     color: #000000;
 }
-
-
