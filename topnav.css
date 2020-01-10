@@ -1,6 +1,6 @@
 @font-face {
     font-family: ttf;
-    src: url();
+    src: url(comic.ttf);
 }
 .topnav {
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/4/48/Teleidoscope_animation.gif);
