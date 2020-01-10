@@ -53,3 +53,9 @@ div#drop {
     text-align: left;
     color: #000000;
 }
+.roberto{
+	float: left;
+}
+.ethan{
+	clear: right;
+}
