@@ -5,6 +5,7 @@
 .topnav {
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/4/48/Teleidoscope_animation.gif);
     overflow: hidden;
+    clear: left;
 }
 .topnav a {
     width: 125px;
@@ -56,6 +57,4 @@ div#drop {
 .roberto{
 	float: left;
 }
-.ethan{
-	clear: right;
-}
+
