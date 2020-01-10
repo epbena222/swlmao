@@ -2,7 +2,8 @@
 /* CSS Document */
 
 .webSummary {
-    width: 250px;
+    width: 225px;
     border: solid medium black;
-    margin-top: 
+    margin-top: 10px;
+    margin-left: 15px;
 }
