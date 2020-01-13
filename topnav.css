@@ -55,7 +55,8 @@ div#drop {
 
 .wondersItems {
     text-align: left;
-    color: #000000;
+    color: #ffffff;
+	font-family: ttf;
 }
 .roberto{
 	float: left;
