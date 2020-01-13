@@ -32,7 +32,8 @@
     left: 163px;
     top: 163.25px;
     width: 152.75px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgb(0, 0, 0);
+	text-color: white;
 }
 
 .dropBut {
