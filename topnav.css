@@ -30,10 +30,12 @@
 	display: none;
     position: absolute;
     left: 163px;
-    top: 163.25px;
+    top: 161.25px;
     width: 152.75px;
-    background: rgb(0, 0, 0);
+    background-color: #9DB75E;
+    border: medium solid #000000;
 }
+
 .droplink{
 	color: white;
 	font-family: ttf;
@@ -59,6 +61,7 @@ div#drop {
     color: #ffffff;
 	font-family: ttf;
 }
+
 .roberto{
 	float: left;
 }

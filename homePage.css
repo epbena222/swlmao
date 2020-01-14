@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+    background-color: #A1915E;
+}
+
 
 .webSummary {
     width: 225px;
