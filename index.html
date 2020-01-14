@@ -27,12 +27,21 @@
                 </div>
             </div>
 			<a href="https://m.youtube.com/watch?v=dQw4w9WgXcQ">About Us</a>
+            
 		</div>
         
         <div class="webSummary">
             <p>Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here.</p>
         </div>
-        
+        <div class="slideshow">
+            <img src="giza-plateau-pyramids.ngsversion.1485215491918.adapt.1900.1.jpg" class="slideImage" alt="giza">
+            <img src="180126-mcnearney-babylon-tease_wjwotm.jpg" class="slideImage" alt="babylon">
+            <img src="statue-of-Zeus-Olympia.jpg" class="slideImage" alt="zeus">
+            <img src="Artemis_Temple_Pan_2_touched.jpg" class="slideImage" alt="artemis">
+            <img src="Artist-re-creation-Mausoleum-of-Halicarnassus.jpg" class="slideImage" alt="masoleum">
+            <img src="Colossus-of-Rhodes.jpg" class="slideImage" alt="rhodes">
+            <img src="Pharos-Alexandria.jpg" class="slideImage" alt="lighthouse">
+        </div>
 	</body>
 	
 	<script>
@@ -42,5 +51,20 @@
         function dropDownOff() {
 			document.getElementById("drop").classList.remove("show");
 		}
+        
+        var slideIndex = 0;
+        carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("slideImage");
+                for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
 	</script>
 </html>
