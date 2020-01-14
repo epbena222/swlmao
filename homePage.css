@@ -10,4 +10,5 @@ body {
     border: solid medium black;
     margin-top: 10px;
     margin-left: 15px;
+    float: left;
 }
