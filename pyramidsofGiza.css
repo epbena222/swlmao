@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 .Giza {
-	width: 60%;
+	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -13,17 +13,32 @@ h2 {
 	width: 25%;
 }
 .gizapic{
-	width:300px;
-	length:300px;
+	width:600px;
+	length:600px;
 	float: left;
-	margin: right;
+	border: 15px;
 	
 }
-.clear{
-	clear:both;
-	
-	
-}
-.paragraphgiza{
 
+
+.paragraphgiza{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.picGiza2 {
+	width: 600px;
+	length:600px;
+	float: right;
+	border: 15px;
+	
+}
+.clearfloat {
+	
+	clear:both;
+}
+.margingiza{
+	margin-left: auto;
+	margin-right: auto;
 }
