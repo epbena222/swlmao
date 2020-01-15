@@ -4,6 +4,10 @@ body {
     background-color: #A1915E;
 }
 
+@font-face {
+    font-family: ttf;
+    src: url(comic.ttf);
+}
 
 .webSummary {
     width: 225px;
