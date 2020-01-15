@@ -33,7 +33,7 @@
         <div class="webSummary">
             <p>Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here. Website summary goes here.</p>
         </div>
-        <div class="slideshow">
+        <div class="slideshow" id="slideshowWindow">
             <img src="giza-plateau-pyramids.ngsversion.1485215491918.adapt.1900.1.jpg" class="slideImage" alt="giza">
             <img src="180126-mcnearney-babylon-tease_wjwotm.jpg" class="slideImage" alt="babylon">
             <img src="statue-of-Zeus-Olympia.jpg" class="slideImage" alt="zeus">
@@ -65,6 +65,13 @@
             if (slideIndex > x.length) {slideIndex = 1}
             x[slideIndex-1].style.display = "block";
             setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        
+        function slideshowBigenningMachine {
+            if (window.innerHeight == screen.height-30) {
+                document.getElementById("slideshowWindow").classList.toggle.("slideImage");
+                document.getElementById("slideshowWindow").classList.toggle.("slideImageBig");
+            }
         }
 	</script>
 </html>
