@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.zuespic { 
+float: left;
+}
+
+.clear {
+	clear: both
+}
+
+.picZues2 {
+	float: right;
+}
