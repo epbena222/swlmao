@@ -1,7 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+	background-color: #C9BFA5;
+}
+
 .Giza {
-	width: 75%;
+	width: 80%;
+	height: 970px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -14,24 +19,26 @@ h2 {
 }
 .gizapic{
 	width:600px;
-	length:600px;
+	height:600px;
 	float: left;
-	border: 15px;
+	border: 10px solid black;
+	margin-right: 10px;
 	
 }
 
 
 .paragraphgiza{
-	margin-left: auto;
-	margin-right: auto;
+	background-color: antiquewhite;
+	
 
 }
 
 .picGiza2 {
 	width: 600px;
-	length:600px;
+	height:600px;
 	float: right;
-	border: 15px;
+	border: 10px solid black;
+	margin-left: 10px;
 	
 }
 .clearfloat {
@@ -39,6 +46,5 @@ h2 {
 	clear:both;
 }
 .margingiza{
-	margin-left: auto;
-	margin-right: auto;
+	background-color: antiquewhite;
 }
