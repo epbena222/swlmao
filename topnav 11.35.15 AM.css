@@ -1,0 +1,72 @@
+@font-face {
+    font-family: ttf;
+    src: url(comic.ttf);
+}
+.topnav {
+    background-color: #BC936C;
+    overflow: hidden;
+    clear: left;
+    border: 4px #006400 solid;
+}
+.topnav a {
+    width: 125px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: ttf;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 10px;
+}
+
+.dropCont {
+	display: none;
+    position: absolute;
+    left: 167px;
+    top: 163.25px;
+    width: 152.75px;
+    background-color: #9DB75E;
+    border: medium solid #000000;
+}
+
+.droplink{
+	color: white;
+	font-family: ttf;
+}
+
+.dropBut {
+    position: relative;
+}
+
+.show {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+div#drop {
+    border: medium solid #000000;
+}
+
+.wondersItems {
+    text-align: left;
+    color: #ffffff;
+	font-family: ttf;
+}
+
+.roberto{
+	float: left;
+}
+
