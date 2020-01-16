@@ -1,3 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    background-color: #C9BFA5;
+}
+
+@font-face {
+    font-family: ttf;
+    src: url(comic.ttf);
+}
 p{
 font-family: ttf;
 font-size: 18px;
