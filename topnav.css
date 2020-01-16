@@ -3,10 +3,13 @@
     src: url(comic.ttf);
 }
 .topnav {
-    background-image:url(https://upload.wikimedia.org/wikipedia/commons/4/48/Teleidoscope_animation.gif);
     overflow: hidden;
+    clear: left;
+    background-color: #CBB686;
+    border: 5px solid #006400;
 }
 .topnav a {
+    width: 125px;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -24,16 +27,43 @@
     color: white;
 }
 
-.wondersList {
-	visibility: hidden;
+.dropCont {
+	display: none;
     position: absolute;
+    left: 169px;
+    top: 165.25px;
+    width: 152.75px;
+    background-color: #9DB75E;
+    border: medium solid #000000;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.droplink{
+	color: white;
+	font-family: ttf;
 }
+
+.dropBut {
+    position: relative;
+}
+
+.show {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+div#drop {
+    border: medium solid #000000;
+}
+
+.wondersItems {
+    text-align: left;
+    color: #ffffff;
+	font-family: ttf;
+}
+
+.roberto{
+	float: left;
+}
+
