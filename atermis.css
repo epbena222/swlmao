@@ -11,8 +11,7 @@ body {
 p{
 font-family: ttf;
 font-size: 18px;
-    float: left;
 }
 .img{
-    float: right;
+    float: left;
 }
