@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+    background-color: #C9BFA5;
+}
+
 .zuespic { 
 float: left;
 }
