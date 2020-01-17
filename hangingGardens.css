@@ -3,7 +3,6 @@ body {
 }
 
 .Giza {
-	.Giza {
     	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
@@ -11,7 +10,6 @@ body {
    	 border-right: 5px solid #006400;
    	 padding-left: 55px;
     	padding-right: 55px;
-}
 }
 
 h2 { 
