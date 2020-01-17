@@ -7,6 +7,7 @@ body {
 
 .zuespic { 
 float: left;
+border: 10px solid black;
 }
 
 .clear {
@@ -15,4 +16,10 @@ float: left;
 
 .picZues2 {
 	float: right;
+	border: 10px solid black;
+}
+
+.heading {
+	border-bottom: 5px solid black;
+	width: 32%;
 }

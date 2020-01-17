@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #C9BFA5;
+}
+
+.zuespic { 
+width:600px;
+	height:600px;
+	float: left;
+	border: 10px solid black;
+	margin-right: 10px;
+}
+
+.clear {
+	clear: both
+}
+
+.picZues2 {
+	width:600px;
+	height:600px;
+	float: right;
+	border: 10px solid black;
+	margin-right: 10px;
+}
+
+.heading {
+	border-bottom: 5px solid black;
+}
+.boxlmao{
+	
+	background-color: antiquewhite;
+}
+
+.lighthouse {
+	width: 80%;
+	height: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.heading407{
+	width: 25%;
+}
