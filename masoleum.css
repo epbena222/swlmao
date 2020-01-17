@@ -27,6 +27,7 @@ h2 {
 	float: left;
 	border: 15px;
 	margin-bottom: 15px;
+	margin-right: 10px;
 }
 
 
@@ -41,8 +42,9 @@ h2 {
 	length: 500px;
 	float: right;
 	border: 15px;
-	
+	margin-left: 10px;	
 }
+
 .clearfloat {
 	
 	clear:both;
