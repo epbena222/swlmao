@@ -6,8 +6,10 @@ body {
 }
 
 .zuespic { 
-float: left;
-border: 10px solid black;
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
 }
 
 .clear {
@@ -16,12 +18,9 @@ border: 10px solid black;
 
 .picZues2 {
 	float: right;
-	border: 10px solid black;
-}
-
-.heading {
-	border-bottom: 5px solid black;
-	width: 32%;
+    width: 500px;
+    height: 350px;
+    margin-left: 10px;
 }
 
 .Giza {
