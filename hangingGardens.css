@@ -1,0 +1,48 @@
+body {
+	background-color: #C9BFA5;
+}
+
+.Giza {
+	width: 80%;
+	height: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 { 
+	border-bottom: medium black solid;
+}
+.heading {
+	width: 30%;
+}
+.gizapic{
+	width:600px;
+	height:600px;
+	float: left;
+	border: 10px solid black;
+	margin-right: 10px;
+	
+}
+
+
+.paragraphgiza{
+	background-color: antiquewhite;
+	
+
+}
+
+.picGiza2 {
+	width: 600px;
+	height:600px;
+	float: right;
+	border: 10px solid black;
+	margin-left: 10px;
+	
+}
+.clearfloat {
+	
+	clear:both;
+}
+.margingiza{
+	background-color: antiquewhite;
+}
