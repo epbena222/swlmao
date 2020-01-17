@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #C9BFA5;
+}
+
+.zuespic { 
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.clear {
+	clear: both
+}
+
+.picZues2 {
+	float: right;
+    width: 500px;
+    height: 350px;
+    margin-left: 10px;
+}
