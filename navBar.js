@@ -19,3 +19,10 @@ function dropDownOn() {
             x[slideIndex-1].style.display = "block";
             setTimeout(carousel, 2000); // Change image every 2 seconds
         }
+
+var sound = new Music({
+		src: ["music.mp3"]
+		autoplay: true,
+		loop: true,
+		volume: 1,
+	});
