@@ -6,8 +6,10 @@ body {
 }
 
 .zuespic { 
-float: left;
-border: 10px solid black;
+	float: left;
+	border: 10px solid black;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .clear {
