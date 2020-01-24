@@ -1,6 +1,7 @@
 @font-face {
     font-family: ttf;
     src: url(comic.ttf);
+	font-display: swap
 }
 .topnav {
     overflow: hidden;
