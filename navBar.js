@@ -2,7 +2,7 @@
 function dropDownOn() {
 			document.getElementById("drop").classList.add("show");
 		}
-// closes nav abr
+// closes navbar
         function dropDownOff() {
 			document.getElementById("drop").classList.remove("show");
 		}
