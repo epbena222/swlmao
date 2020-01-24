@@ -1,10 +1,13 @@
+// opens up navbar
 function dropDownOn() {
 			document.getElementById("drop").classList.add("show");
 		}
+// closes nav abr
         function dropDownOff() {
 			document.getElementById("drop").classList.remove("show");
 		}
         
+// code for the slideshow, not really sure how it works - Robert
         var slideIndex = 0;
         carousel();
 
